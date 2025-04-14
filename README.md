@@ -1,8 +1,5 @@
 # Webflow Proxy
 
-[![Deploy to Cloudflare Pages](https://github.com/NerdBaba/webflow-proxy/actions/workflows/deploy.yml/badge.svg)](https://github.com/NerdBaba/webflow-proxy/actions/workflows/deploy.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 A Cloudflare Pages project that proxies a Webflow site while removing the Webflow badge. This allows you to serve a Webflow-designed site through your own domain without the "Made in Webflow" badge.
 
 ## Features
