@@ -1,0 +1,32 @@
+{
+  "name": "webflow-proxy",
+  "version": "1.0.0",
+  "description": "A Cloudflare Pages site to proxy Webflow domains and remove the Webflow badge",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy .",
+    "deploy:production": "wrangler pages deploy . --branch=main --project-name=webflow-proxy",
+    "deploy:staging": "wrangler pages deploy . --branch=staging --project-name=webflow-proxy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/webflow-proxy.git"
+  },
+  "keywords": [
+    "webflow",
+    "cloudflare",
+    "pages",
+    "proxy",
+    "badge-removal"
+  ],
+  "author": "Webflow Proxy Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/webflow-proxy/issues"
+  },
+  "homepage": "https://github.com/username/webflow-proxy#readme",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 

@@ -1,0 +1,10 @@
+# Wrangler configuration for the Webflow Proxy project
+name = "webflow-proxy"
+compatibility_date = "2023-09-04"
+
+# Define output directory for Pages
+pages_build_output_dir = "."
+
+# Enable Cloudflare Pages Functions
+[functions]
+directory = "functions" 
